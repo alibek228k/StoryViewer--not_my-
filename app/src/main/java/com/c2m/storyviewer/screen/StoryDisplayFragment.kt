@@ -113,6 +113,7 @@ class StoryDisplayFragment : Fragment(),
     }
 
     override fun onPrev() {
+        println("здесь происходит онПериус!")
         if (counter - 1 < 0) return
         --counter
         savePosition(counter)
